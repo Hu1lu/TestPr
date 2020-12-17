@@ -13,6 +13,7 @@ namespace ConsoleApp3
                 Console.WriteLine("Name -") ; Console.WriteLine(disk.Name);
                 Console.WriteLine("Fyle system -") ; Console.WriteLine(disk.DriveFormat);
                 Console.WriteLine("Type -") ; Console.WriteLine(disk.DriveType);
+                Console.WriteLine("id -"); Console.WriteLine(disk.id);
                 Console.WriteLine("Total size -") ; Console.WriteLine(disk.TotalSize);
                 Console.WriteLine("Total free space -") ; Console.WriteLine(disk.TotalFreeSpace);
             }
